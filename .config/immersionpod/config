@@ -5,6 +5,6 @@ prefer_internal_subs=yes
 bitrate=32k
 recent_threshold=14
 padding=1
-line_skip_pattern="^♪$|^♪$"
+line_skip_pattern=""
 filename_skip_pattern="NCOP|NCED"
 extract_audio_add_args=(-af loudnorm=I=-16:TP=-1.5:LRA=11)
